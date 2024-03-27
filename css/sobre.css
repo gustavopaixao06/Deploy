@@ -90,7 +90,7 @@ header>.centro {
 
     text-align: right;
     width: 50%;
-
+    padding: 1vw;
 }
 
 .menu-desktop li {
@@ -152,16 +152,16 @@ header>.centro {
 
 #img-sobre img{
 
-    width: 46.875vw;
-    height: 46.875vw;
+    width: 40vw;
+    height: 45vw;
 
 }
 
 #titulo{
 
-    font-size: 1.5vw;
+    font-size: 1.171875vw;
     text-align: center;
-    padding: 0vw 0vw 0vw 6.25vw;
+    padding: 0vw 0vw 0vw 4vw;
 }
 
 .depoimento{
@@ -171,7 +171,7 @@ header>.centro {
     padding: 3.90625vw 0vw 3.90625vw;
     display: flex;
     margin-top: 6.25vw;
-    font-size: 1.5vw;
+    font-size: 1.171875vw;
 
 }
 

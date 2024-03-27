@@ -88,6 +88,8 @@ header>.centro {
 
     text-align: right;
     width: 50%;
+    padding: 1vw;
+
 
 }
 
@@ -144,7 +146,7 @@ header>.centro {
 
 #titulo{
 
-    margin-top: 3.90625vw;
+    margin-top: 8vw;
     text-align: center;
     font-size: 1.171875vw;
   
@@ -154,7 +156,7 @@ header>.centro {
 
     display: flex;
     justify-content: space-between;
-    margin-top: 6.25vw;
+    margin-top: 1vw;
 
 }
 
