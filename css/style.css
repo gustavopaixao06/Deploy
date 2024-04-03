@@ -8,8 +8,39 @@
     
 }
 
+
+:root {
+    --cor1: #07298B;
+    overflow-x: hidden;
+}
+
+/* alterando características da barra de rolagem */
+
+::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+
+::-webkit-scrollbar-track {
+    border-radius: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #07298B;
+    border-radius: 0.7vw;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #051543;
+
+}
+
+
+
 body {
     overflow-x: hidden;
+    
 }
 
 header{
@@ -130,26 +161,180 @@ header > .centro{/* Usando o header para que as configurações do display flex 
 
 }
 
-.sobre p{
+.img-2 img{
 
-    background-color: #33343F;
-    color: white;
-    padding: 7vw 3vw 7vw 3vw;
-    margin-top: 2vw;
-    font-size: 1.3vw;
+    width: 50vw;
+    height: 36.458333333333336vw;
+    padding: 0vw 0vw 0vw 4vw;
+
+}
+
+.sobre{
+
+    color: black;
+    padding: 7.833333333333333vw 5.208333333333333vw;
+    font-size: 1vw;
     text-align: center;
+    margin-bottom: 4.6875vw;
 
 }
 
-.sobre {
-    padding: 0vw 0vw 0vw 3.90625vw;
+.sobre h4{
+
+    background-color: #07298B;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 50px;
+    
 }
 
+.sobre h4:hover{
+
+    background-color: #1745ce;
+    transition: 0.4s;
+    /* adicionando transição */
+    transform: translateX(2px) scale(1.1);
+}
+
+.part-2{
+    padding-left: 1.5625vw;
+}
+
+.contato{
+
+    text-align: center;
+}
+
+.contato i{
+
+    font-size: 50px;
+
+}
+
+.contato i:hover {
+
+    color: #26d321;
+    transition: 0.4s;
+    /* adicionando transição */
+    transform: translateX(2px) scale(1.1);
+
+}
+
+.forms{
+    min-height: 20vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+form {
+
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,
+input,
+textarea, 
+button {
+
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: rgb(21, 10, 82);
+    background: #e4e4e490;
+    border: 0.125rem solid #1745ce;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s,
+    box-shadow 0.3s ;
+}
+
+input :hover,
+input :focus,
+textarea :hover,
+textarea :focus {
+    outline: none;
+    border-color: #1d90f5;
+    box-shadow: 0 0 0 0.3125rem #0c3c87;
+}
+
+label {
+    text-align: justify;
+    margin-bottom: 0.5rem;
+    color: #030509;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button{
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #07298B;
+    cursor: pointer;
+    transition: 1s;
+}
+button :hover,
+button :focus {
+    outline: none;
+    background: #07298B;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background: #12214c;
+}
+
+.success,
+.error {
+    text-align: center;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: tomato;
+}
+
+.maps {
+    text-align: center ;
+
+}
+
+.localizacao{
+
+    margin-top: 1.5625vw;
+    width: 90.75vw;
+    height: 23.4375vw;
+}
 
 .info{
-
+    
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 

@@ -7,6 +7,80 @@
 
 }
 
+
+:root {
+    --cor1: #07298B;
+    overflow-x: hidden;
+}
+
+/* alterando características da barra de rolagem */
+
+::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+
+::-webkit-scrollbar-track {
+    border-radius: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #07298B;
+    border-radius: 0.7vw;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #051543;
+
+}
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+header{
+
+    padding: 0.8vw 0;
+   
+}
+
+
+.menu-selecionado{/* Mudando a cor da palavra GCP do logo */
+
+    border-bottom: 0.2vw solid #07298B;
+
+}
+
+.menu-desktop a {
+    position: relative;
+}
+
+.menu-desktop a::after{
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: var(--blue);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: 0.9s;
+    transform-origin: right;
+}
+
+.menu-desktop a:hover::after {
+    transform: scaleX(1);
+}
+
+:root {
+    --blue: #07298B;
+}
+
+
 header {
 
     padding: 0.8vw  0;

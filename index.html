@@ -11,77 +11,132 @@
        <!-- o defer serve para só carregar quando o site estiver 100% funcionando -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/c5f0f61a24.js" crossorigin="anonymous"></script>
+       <script defer src="app.js"></script>
 
 </head>
 
 <body>
-
+      
+       
        <header>
 
               <div class="centro">
 
-                     <div class="logo">
+                     <figure class="logo">
                             <img src="imagens/png.2.png" alt="">
-                     </div>
+                     </figure>
 
-
-
-                     <div class="menu-desktop">
+                     <nav class="menu-desktop">
 
                             <ul><!-- criando uma lista -->
 
                                    <li><a class="menu-selecionado" href="">Home</li></a>
                                    <li><a href="sobre.html">Sobre</li></a>
                                    <li><a href="servicos.html">Serviços</li></a>
-                                   <li><a href="equipe.html">Equipe</li></a>
-                                   <li><a href="portfolio.html">Portfólio</li></a>
+                                   <li><a href="equipe.html">Parceiros</li></a>
+                                   <li><a href="portfolio.html">Contato</li></a>
 
                             </ul><!-- / lista -->
 
 
-                     </div><!-- / menu-cabecalho -->
+                     </nav><!-- / menu-cabecalho -->
 
               </div>
        </header>
 
-       <section class="sessao-1">
+       <main>
 
-              <div class="first-img">
-                     <img src="imagens/Group 4.png" alt="">
-              </div>
+              <section class="sessao-1">
 
-       </section>
+                     <figure class="first-img">
+                            <img src="imagens/Group 4.png" alt="">
+                     </figure>
 
-       <section class="sessao-2">
+              </section>
 
-              <div class="sobre">
-                     <p>
-                            SOBRE DEPLOY <br><br>
-                            Ágil, eficiente e honesto(a), o(a) Deploy tornou-se um(a) Serviço de <br>
-                            recuperação de dados respeitável e conhecido(a). Nossa equipe está <br>
-                            preparada para qualquer serviço, gerenciando projetos com a <br>
-                            habilidade e experiência que nossos clientes esperam. Para oferecer <br>
-                            um trabalho satisfatório aos nossos clientes, fornecemos canais de <br>      
-                            comunicação abertos durante cada projeto.
-                     </p>
-              </div>
+              <section class="sessao-2">
 
-              <div class="img-1">
+                     <figure class="img-2">
+                            <img src="imagens/img_2.svg" alt="" width="500" height="500">
+                     </figure>
+
+
+                     <div class="part-2">
+                            <article class="sobre">
+                                   <h2> SOBRE DEPLOY</h2> <br><br><br>
+                                   <p>
+                                          Ágil, eficiente e honesto, a Deploy tornou-se um Serviço de <br>
+                                          automação residencial respeitável e conhecido. Nossa equipe está <br>
+                                          preparada para qualquer serviço, gerenciando projetos com a <br>
+                                          habilidade e experiência que nossos clientes esperam. Para oferecer <br>
+                                          um trabalho satisfatório aos nossos clientes, fornecemos canais de <br>
+                                          comunicação abertos durante cada projeto.
+                                   </p> <br><br>
+
+                                   <a href="sobre.html">
+                                          <h4>Saiba mais</h4>
+                                   </a>
+                            </article>
+                     </div>
+
+              </section>
+
+              <section class="sessao-3">
+
+                     <article class="contato">
+
+                            <h2>ENTRE EM CONTATO</h2>
+                            <a href="https://web.whatsapp.com/send?phone=11966413001" target="_blank"><i
+                                          class="fa-brands fa-whatsapp" style="color: #1abb24;"></i></a>
+                            <h2>OU</h2>
+
+                            <div class="forms">
+                                   <form action="https://formsubmit.co/ajax/18224e99e716bf178d9ac10124fb5661"
+                                          method="POST" data-form>
+                                          <label for="nome">Nome</label>
+                                          <input type="text" name="nome" id="nome" required />
+
+                                          <label for="email">E-mail</label>
+                                          <input type="email" name="email" id="email" required />
+
+                                          <label for="telefone">Telefone</label>
+                                          <input type="tel" name="telefone" id="telefone" required />
+
+                                          <label for="assunto">Assunto</label>
+                                          <input type="text" name="assunto" id="assunto" required />
+
+                                          <label for="mensagem">Mensagem</label>
+                                          <textarea name="mensagem" id="mensagem" required></textarea>
+
+                                          <button type="submit" data-button>Enviar</button>
+                                   </form>
+                            </div>
+
+                     </article>
+
+              </section>
+
+              <section>
+                     <div class="maps">
+                            <iframe class="localizacao" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467789.28747039434!2d-47.3484615287474!3d-23.65435563434865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50a15b72d55d%3A0x65c2b876622f1a38!2sCondom%C3%ADnio%20Next%20Office!5e0!3m2!1spt-PT!2sbr!4v1712089341711!5m2!1spt-PT!2sbr"style="border:0;" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     </div>
+
                      
-                    <img src="imagens/img" alt="">
-              </div>
+              </section>
 
-       </section>
+       </main>
 
-       <section class="info">
+
+       <footer class="info">
 
               <div class="informacoes">
 
-                     <h5>deploy@gmail.com <br><br> ©2023 por Deploy. Orgulhosamente criado por G&G</h5>
+                     <h5> deploy@deploysolution.com.br <br><br> ©2023 por Deploy. Orgulhosamente criado por G&G</h5>
 
               </div>
 
-       </section><!-- / section info -->
+       </footer><!-- / section info -->
 
 
 </body>
